@@ -290,12 +290,8 @@ function getSumToN(n) {
  *   202 => 4  // (2+0+2)
  *   5   => 5  // 5
  */
-function getSumOfDigits(num) {
-  // return num
-  //   .toString()
-  //   .split('')
-  //   .reduce((sum, cur) => +cur + sum, 0);
 
+function getSumOfDigits(num) {
   let n = num;
   let sum = 0;
 
